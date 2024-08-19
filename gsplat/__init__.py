@@ -16,6 +16,8 @@ from .rendering import (
     rasterization,
     rasterization_inria_wrapper,
     rasterization_legacy_wrapper,
+    rasterization_2dgs,
+    rasterization_2dgs_inria_wrapper,
 )
 from .strategy import DefaultStrategy, MCMCStrategy, Strategy
 from .version import __version__
